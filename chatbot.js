@@ -102,3 +102,16 @@
             <p>${msg}</p>
             <span class="text-[10px] text-gray-500">${getTime()}</span>
           </div>`;
+        chatBox.appendChild(botMsg);
+        chatBox.scrollTop = chatBox.scrollHeight;
+      }, 800);
+    }
+  
+    function clearChat() {
+      document.getElementById('chat-box').innerHTML = '';
+    }
+  </script>
+  
+
+</body>
+</html>
